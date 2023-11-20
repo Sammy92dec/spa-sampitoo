@@ -1,7 +1,12 @@
  /* Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lora&display=swap');
 
- 
+ /* Asterisk wildcard selector to override default styles added by the browser */
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
 
  /* Set body font family and size */
  body {
@@ -9,7 +14,7 @@
      display: flex;
      flex-direction: column;
      /* generic project styles */
-     color: #ca1818;
+     color: #192a37;
      font-family: 'Lora',serif;
  }
 
@@ -20,8 +25,41 @@
      line-height: 75px;
      margin: 0 0.5rem;
      text-decoration: underline;
-     font-family: 'Cinzel Decorative',
-        serif;  
+     font-family: 'Cinzel Decorative', serif; 
+     text-transform: uppercase;
+     letter-spacing: 2px;
+ }
+
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* logo display */
+ #menu {
+     font-size: 110%;
+     letter-spacing: 4px;
+     list-style-type: none;
+ }
+
+ #menu>li {
+     margin-bottom: 1em;
+ }
+
+ .active {
+     border-bottom: 1px solid #3a3a3a;
  }
 
  /* Main*/
