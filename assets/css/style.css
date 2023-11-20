@@ -1,8 +1,19 @@
  /* Google Font*/
- @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lora&display=swap');
+
  
 
+ /* Set body font family and size */
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     /* generic project styles */
+     color: #ca1818;
+     font-family: 'Lora',serif;
+ }
 
+/*header*/
  /* Logo in header */
  #logo {
      font-size: 280%;
@@ -12,3 +23,13 @@
      font-family: 'Cinzel Decorative',
         serif;  
  }
+
+ /* Main*/
+ main {
+     background-color: rgb(230, 173, 218);
+     /* for main to take space n push footer down */
+     flex:1 0 auto;
+     margin-top: 47px;
+ }
+
+ /* Footer*/
