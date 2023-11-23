@@ -16,10 +16,10 @@ Spa Sampito is a site designed to highlight how important to immerse yourself in
   - [Structure](#structure)
   - [Skeleton](#skeleton)
   - [Surface](#surface)
-  - [Technologies Used](#technologies-used)
 - [Features](#features)
   - [Existing Features](#existing-features)
     - [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
     - [Deployment](#deployment)
@@ -38,19 +38,6 @@ Spa Sampito is a site designed to highlight how important to immerse yourself in
 ## Structure
 ## Skeleton
 ## Surface
-
-
-## Technologies Used
-
-- HTML
-- CSS 
-  
-Also made use of:
-- Font Awesome
-- Google Fonts
-- HTML Validator
-- CSS Validator
-  
 
 # Features
 
@@ -99,6 +86,18 @@ The website is comprised of 3 pages which are extended from a base template.
 ### Features Left to Implement
 
 - To setup a gallery page to include real clients images and experiences at Spa Sampitoo.
+
+# Technologies Used
+
+- HTML
+- CSS 
+  
+Also made use of:
+- Font Awesome
+- Google Fonts
+- HTML Validator
+- CSS Validator
+  
 
 ## Testing
 

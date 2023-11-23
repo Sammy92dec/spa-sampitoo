@@ -1,5 +1,5 @@
 /* Google Font*/
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lora&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -17,6 +17,52 @@ body {
     /* generic project styles */
     color: #192a37;
     font-family: 'Lora', serif;
+}
+
+#firstparagraph {
+
+    padding-bottom: 5%;
+    padding-top: 15%;
+    margin: 1rem;
+}
+
+#offer {
+    padding-bottom: 5%;
+    margin-left: 5rem;
+}
+
+#membership {
+    padding-top: 5%;
+    margin-left: 2rem;
+}
+
+#thirdpart {
+    padding: 5%;
+    margin-left: 0rem;
+}
+
+#images {
+         padding: 5%;
+        margin-left: 1rem;
+}
+
+
+#findus {
+        padding-top: 5%;
+}
+
+#midpart {
+
+    background-color: burlywood;
+    border-radius: 3%;
+}
+
+
+
+
+
+#signupbackground {
+    background-image: url(/workspaces/spa-sampitoo/assets/images/pool.jpg);
 }
 
 /*header*/
