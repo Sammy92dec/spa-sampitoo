@@ -32,11 +32,25 @@ Spa Sampito is a site designed to highlight how important to immerse yourself in
 
 # UX
 ## User Stories
+
+- To show what the Spa offer for services.
+- Easy to navigate between pages
+- Soothing colors to reflect the feeling of calmness.
+- To easily signup to the facility
+-
+
 ### Target Audience
+
+- Working class,Whoever is in need of a break and to have a healthier routine mindfully or physically.Day visits is also avaliable
+
 ## Strategy
+
 ## Scope
+
 ## Structure
+
 ## Skeleton
+
 ## Surface
 
 # Features
