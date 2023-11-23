@@ -1,4 +1,4 @@
-# Spa Sampitoo <img src=workspaces/spa-sampitoo/wave.png/> ![Spa Sampitoo Logo]
+#  <img src="assets/images/wave1.png"/> Spa Sampitoo 
 
 Spa Sampito is a site designed to highlight how important to immerse yourself in a world of relaxation and rejuvenating experiences. The site will give you a glimpse into our unwinding services to a path of holistic wellness. Tailored for your serenity, our website aims to be the go-to destination for those seeking blissful escapes.
 
@@ -6,12 +6,19 @@ Spa Sampito is a site designed to highlight how important to immerse yourself in
 
 ## CONTENTS
 
-- [Spa Sampitoo  !\[Spa Sampitoo Logo\]](#spa-sampitoo--spa-sampitoo-logo)
+- [ Spa Sampitoo](#-spa-sampitoo)
   - [CONTENTS](#contents)
+- [UX](#ux)
+  - [User Stories](#user-stories)
+    - [Target Audience](#target-audience)
+  - [Strategy](#strategy)
+  - [Scope](#scope)
+  - [Structure](#structure)
+  - [Skeleton](#skeleton)
+  - [Surface](#surface)
   - [Technologies Used](#technologies-used)
-    - [Languages Used](#languages-used)
-  - [Features](#features)
-    - [Existing Features](#existing-features)
+- [Features](#features)
+  - [Existing Features](#existing-features)
     - [Features Left to Implement](#features-left-to-implement)
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
@@ -23,18 +30,29 @@ Spa Sampito is a site designed to highlight how important to immerse yourself in
     - [Media](#media)
     - [Acknowledgments](#acknowledgments)
 
+# UX
+## User Stories
+### Target Audience
+## Strategy
+## Scope
+## Structure
+## Skeleton
+## Surface
+
 
 ## Technologies Used
 
-### Languages Used
+- HTML
+- CSS 
+  
+Also made use of:
+- Font Awesome
+- Google Fonts
+- HTML Validator
+- CSS Validator
+  
 
-
-??
-  * [Databases Used](#databases-used)
-  * [Frameworks Used](#frameworks-used)
-
-
-## Features
+# Features
 
 The website is comprised of 3 pages which are extended from a base template.
 
@@ -42,11 +60,7 @@ The website is comprised of 3 pages which are extended from a base template.
 * Signup page
 * Membership page
 
-### Existing Features
-
-- __Favicon__
-  
-  - Created at Favicon.io. I have chosen an illustration of waves as it fit the theme of my site, this image has also been used as the logo for the site - which fosters continuity through the site for users and promotes brand awareness.
+## Existing Features
 
 - __Navigation Bar__
 
@@ -108,7 +122,7 @@ Testing was completed on multiple devices for resposiveness.All links and possib
   
 - Lighthouse
   
-- wave
+
   
 ### Deployment
 
@@ -120,7 +134,7 @@ This section is the process to go through to deploy the project to a hosting pla
   - In the build and deployment choose main branch to deploy and click save.
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment or manually refresh the page.
   - You will be able to confirm the website is deployed at the top part of pages.Like the image below.
-  ![Screenshot Deployed](/workspaces/spa-sampitoo/assets/images/deployed.png)
+  ![Screenshot Deployed](workspaces/spa-sampitoo/assets/images/deployed.png)
 
 The live link - <https://sammy92dec.github.io/spa-sampitoo/>
 
@@ -130,7 +144,8 @@ Steps to fork Spa Sampito project :-
 
 * Go to Github.com,navigate to the Sammy92dec/spa-sampitoo repository.
 * In the top-right corner of the page,Click fork.
-![Screenshot Fork](/workspaces/spa-sampitoo/assets/images/forkimage.png)
+* 
+![Screenshot Fork](workspaces/spa-sampitoo/assets/images/forkimage.png)
 * Under "Owner," select the dropdown menu and click an owner for the forked repository.
 * By default, forks are named the same as their upstream repositories. Optionally, to further distinguish your fork, in the "Repository name" field, type a name.
 * Optionally, in the "Description" field, type a description of your fork.
@@ -141,21 +156,24 @@ Steps to fork Spa Sampito project :-
 
 ### Code Used
 
-Most of the code is taken from my old project submission from the code insistue.[GitHub](https://sammy92dec.github.io/spa-sampito/)
+Most of the code is taken from my old project submission from the code insistue.[Sammy92dec/spa-sampito](https://sammy92dec.github.io/spa-sampito/)
 
 ### Content
 
 - Content for this project was written by Samrawit Tekheste 
 - Navigation attribute was taken from the tutorial video in code institute "Love Running" [Code Insistute](https://codeinstitute.net/se/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
 
 ### Media
 
 - The photos used on the home and sign up page are from other open source site.
-- 
-NAME THE SITES
+  
+- [Pinterest]()
 
 - All screenshots of code used in this README were taken by myself from my own milestone project repositories.
+- Favicon logo created at Favicon.io. I have chosen an illustration of waves as it fit the theme of my site.[Favicon](https://favicon.io/)
+- The font used was taken from [Google Fonts](https://fonts.google.com/specimen/Cinzel).
+- The icons used for the footer were taken from [Font Awesome](https://fontawesome.com/icons?d=gallery).
 
 ### Acknowledgments
 
