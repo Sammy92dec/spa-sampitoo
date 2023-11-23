@@ -27,15 +27,34 @@
 <nav>
     <ul id="menu">
         <li><a href="index.html"  aria-label="Home page">Home</a></li>
-        <li><a href="gallery.html" aria-label="Gallery with the spa pictures">Gallery</a></li>
         <li><a href="signup.html" class="active" aria-label="Fill in your information to sign up to the spa">Sign up</a></li>
     </ul>
-
 </nav>
-
     </header>
 
-    <main>Main</main>
+   
+
+    <main>
+        <fieldset>
+
+         <legend>Information</legend>
+        <form action="https://formdump.codeinstitute.net" method="POST" id="content"></form>
+        <br>
+        <div>
+         <label for="name-field" required class="block-label">Name :- </label>
+         <input id="name-field" type="text" placeholder="Your name" required>
+        </div>
+         <br>
+        <div>
+         <label for="email-field" required class="block-label">Email :- </label>
+         <input id="email-field" type="email" placeholder="Your email" required>
+        </div>
+         <br>
+        <div>
+         <input type="submit" value="Join" class="block-label">
+        </div>
+        </fieldset>
+   </main>
     <footer>Footer</footer>
 </body>
 
