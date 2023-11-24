@@ -11,61 +11,32 @@
 
 /* Set body font family and size */
 body {
-    min-height: 100vh;
+    min-height: 100px;
     display: flex;
     flex-direction: column;
     /* generic project styles */
-    color: #192a37;
+    color: black;
     font-family: 'Lora', serif;
 }
 
-#firstparagraph {
+/*Image Alignment*/
+#images {
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 10px;
+    margin: 40px 30px;
+}
 
-    padding-bottom: 5%;
-    padding-top: 15%;
-    margin: 1rem;
+#firstparagraph {
+    text-align: center;
+    margin: 20px;
+    padding-top: initial;
 }
 
 #offer {
-    padding-bottom: 5%;
-    margin-left: 5rem;
-}
-
-#membership {
-    padding-top: 5%;
-    margin-left: 2rem;
-}
-
-#thirdpart {
-    padding: 5%;
-    margin-left: 0rem;
-}
-
-#images {
-         padding: 5%;
-         margin-left: 1rem;
-         display: flex;
-         justify-content: center;
-         
-}
-
-
-#findus {
-        padding-top: 5%;
-}
-
-#midpart {
-
-    background-color: burlywood;
-    border-radius: 3%;
-}
-
-
-
-
-
-#signupbackground {
-    background-image: url(/workspaces/spa-sampitoo/assets/images/pool.jpg);
+    text-align: justify;
+    margin: 20px;
 }
 
 /*header*/
@@ -79,7 +50,6 @@ h1 {
 header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
